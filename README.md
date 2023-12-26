@@ -6,21 +6,32 @@ PC
 Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1:
-
+start the program
 ### Step 2: 
- 
+ import the file
 ### Step 3: 
-
+open the file
 ### Step 4:  
-
+write the function to counts the words
 ### Step 5: 
-
+print the result
 ### Step 6: 
-
+Execute the program
 ## PROGRAM:
+```
+Developed by: Nirosha M
+Register No : 23014438
 
+import sys
+f1=open(sys.argv[0])
+data=f1.read()
+word=data.split()
+print("The word count is",len(word))
+f1.close
+
+```
 ### OUTPUT:
-
+![Alt text](<Annotation 2023-12-26 092908.png>)
 
 
 ## RESULT:
